@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: rgb(14, 94, 48);
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.camisa, .zapatillas, .cinto{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div{
+    padding-left: 15px;
+}
+
+.camisa img{
+    height: 250px;
+    width: 200px;
+    border-style:groove;
+    border-radius: 10px;
+    }
+
+.zapatillas img{
+    width: 200px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.cinto img{
+    width: 200px;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    background-color: rgb(14, 94, 48);
+    align-items: center;
+    padding: 5px;
+}
+
+.redes{
+    height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.redes h4{
+    padding-bottom: 0%;
+}
+
+.sociales{
+    align-items: center;
+}
+
+.sociales li{
+    display: inline-block;
+    padding: 10px;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+}
