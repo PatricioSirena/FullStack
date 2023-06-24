@@ -1,0 +1,109 @@
+ul{
+    position: fixed;
+}
+
+li{
+    float: left;
+    text-decoration: none;
+}
+
+#relativas{
+    width: 40%;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+#uno{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    height: 25%;
+    background-color: brown;
+}
+
+#dos{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    height: 25%;
+    background-color: violet;
+}
+
+#tres{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    height: 25%;
+    background-color: coral;
+}
+
+#cuatro{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    height: 25%;
+    background-color: black;
+}
+
+#absolutas{
+    /* position: fixed; */
+    width: 40vw;
+    height: 6000px;
+    background-color: rgb(21, 43, 8);
+}
+
+#cinco{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    float: left;
+    height: 15vh;
+    background-color: rgb(10, 43, 150);
+}
+
+#seis{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    float: left;
+    height: 15vh;
+    background-color: rgb(173, 106, 17);
+}
+
+#siete{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    float: left;
+    height: 15vh;
+    background-color: rgb(7, 122, 103);
+}
+
+#ocho{
+    padding: 10px;
+    box-sizing: border-box;
+    width: 10vw;
+    float: left;
+    height: 15vh;
+    background-color: rgb(94, 94, 94);
+}
+
+#posAbsolutas{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    background-color: springgreen;
+}

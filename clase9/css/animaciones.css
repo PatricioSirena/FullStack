@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin: 8px;
+}
+
+ul li a:hover{
+    animation-name: menu;
+    animation-duration: 3s;
+}
+
+@keyframes menu{
+    from{
+        display: inline;
+        margin: 8px;
+        background-color: black;
+        color: white;
+        box-shadow: 4px 5px 8px black;
+    }
+}
+
+@keyframes otraManera{
+    0%{background-color: blue;}
+    25%{background-color: orange;}
+    50%{background-color: yellow;}
+    100%{background-color: white;}
+}
+
+a:hover{
+    animation-name: otraManera;
+    animation-duration: 5s;
+}
+
+@keyframes miAnimacion {
+    from{
+        top: var(--pos-inicial);
+        background-color: blueviolet;
+    }    
+    to{
+        top: 0px;
+        background-color: var(--mi-ColorFondo);
+    }
+}
+
+img{
+    width: 25%;
+}
+
+img:hover{
+    animation-name: imgs;
+    animation-duration: 4s;
+}
+
+@keyframes section{
+    from{
+        top: var(--pos-inicial);
+        left: var(--pos-inicial);
+    }
+    to{
+        top: 150px;
+        left: 0px;
+    }
+}
+
+section{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    display: flex;
+    justify-content: space-around;
+    animation-name: section;
+    animation-duration: 2s;
+}
+
+@keyframes imgs{
+    from{
+        width: 45%;
+    }
+    to{
+        width: 25%;
+    }
+}
+
+:root{
+    --mi-ColorFondo:  rgba(121, 24, 24, 0.459);
+    --pos-inicial: 1000px;
+}
+
+h1{
+    position: relative;
+    width: 20%;
+    animation-name: miAnimacion;
+    animation-duration: 4s;
+    background-color: var(--mi-ColorFondo);
+}

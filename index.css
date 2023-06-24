@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 250px;
+    background-color: rgba(39, 81, 136, 0.884);
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px black;
+}
+
+.foto{
+    position: absolute;
+    top: 40px;
+    width: 120px;
+    /* height: 150px; */
+    border-radius: 100px;
+}
+
+.nombre{
+    position: absolute;
+    top: 170px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(202, 202, 202, 0.61);
+}
+
+nav{
+    /* display: flex; */
+    justify-content: center;
+}
+
+.navegador{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.indice a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.info{
+    position: absolute;
+    top: 210px;
+    left: 250px;
+}
+
+.indice{
+    position: absolute;
+    top: 210px;
+    left: 1000px;
+
+}
+
+#info{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+#info h3{
+    color: white;
+    background-color: grey;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 5px;
+    position: absolute;
+    left: 630px;
+    top: 320px;
+}
+
+#info ul{
+    list-style-type: square;
+    width: 600px;
+    position: absolute;
+    left: 470px;
+    top: 400px;
+}
+
+#info p{
+    width: 600px;
+    position: absolute;
+    top: 570px;
+    left: 470px;
+}
+
+#indice{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+#indice h3{
+    color: white;
+    background-color: grey;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 5px;
+    position: absolute;
+    left: 650px;
+    top: 800px;
+}
+
+#indice ol{
+    width: 600px;
+    left: 470px;
+    top: 880px;
+    position: absolute;
+    
+}
+
+#indice li{
+    width: 600px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: 5px 2px 5px black;
+    background-color: rgb(68, 68, 68);
+}

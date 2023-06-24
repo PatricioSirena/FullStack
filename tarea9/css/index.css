@@ -1,0 +1,31 @@
+*{
+   box-sizing: border-box;
+   padding: 0px; 
+   margin: 0px;
+}
+
+.naranja{
+    height: 80px;
+    /* width: 100vw; */
+    background-color: var(--bs-yellow);
+}
+
+.verde{
+    height: 150px;
+    background-color: var(--bs-green);
+}
+
+.azul{
+    height: 100px;
+    background-color: var(--bs-blue);
+}
+
+.gris{
+    height: 60px;
+    background-color: var(--bs-gray-200);
+    border: 2px solid white;
+}
+
+.container-fluid{
+    flex-wrap: wrap;
+}

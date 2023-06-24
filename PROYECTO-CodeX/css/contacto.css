@@ -1,0 +1,141 @@
+
+p {
+    display: inline;
+    font-size: medium;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.container{
+    position: relative;
+    max-width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    margin-top: 10px;
+    box-shadow: 0 5px 10px rgba(70, 29, 41, 0.205);
+    perspective: 2700px;
+    border-radius: 20px;
+  }
+
+.form-content .login-form,
+ .form-content .signup-form{
+   width: calc(100% / 2 - 25px);
+ }
+
+ .forms .form-content .input-boxes{
+   margin-top: 30px;
+ }
+
+ .forms .form-content .input-box{
+   display: flex;
+   align-items: center;
+   height: 50px;
+   width: 100%;
+   margin: 10px 0;
+   position: relative;
+ }
+
+.input-box input{
+   height: 100%;
+   width: 100%;
+   outline: none;
+   border: none;
+   padding: 10px 0;
+   font-size: 16px;
+   font-weight: 500;
+   border-bottom: 2px solid rgba(170, 132, 142, 0.404);
+   transition: all 0.3s ease;
+ }
+
+.input-box input:focus,
+.input-box input:valid{
+   border-color: rgb(49, 22, 22);
+ }
+
+.input-box i{
+   position: absolute;
+   color: rgb(49, 22, 22);
+   font-size: 17px;
+ }
+
+.text{
+   font-size: 14px;
+   font-weight: 500;
+   color: #333;
+ }
+
+ .forms .form-content .text a{
+   text-decoration: none;
+   color: rgb(49, 22, 22);
+ }
+
+ .forms .form-content .text a:hover{
+   text-decoration: underline;
+ }
+
+ .forms .form-content .button{
+   color: #fff;
+   margin-top: 40px;
+ }
+
+ .forms .form-content .button input{
+   color: #fff;
+   background: rgb(49, 22, 22);
+   border-radius: 6px;
+   padding: 0;
+   cursor: pointer;
+   transition: all 0.4s ease;
+ }
+
+ .forms .form-content .button input:hover{
+   background: rgb(80, 36, 36);
+ }
+
+ .forms .form-content label{
+   color: rgb(49, 22, 22);
+   cursor: pointer;
+ }
+
+ .forms .form-content label:hover{
+   text-decoration: underline;
+ }
+
+ .forms .form-content .login-text,
+ .forms .form-content .sign-up-text{
+   text-align: center;
+   margin-top: 25px;
+ }
+
+ textarea {
+    width: 100%;
+    margin: 15px 0;
+    border: 2px solid rgba(170, 132, 142, 0.404);
+    padding: 15px;
+
+ }
+
+ textarea:active
+ textarea:focus
+ {
+    border-color: rgb(49, 22, 22);
+  }
+
+ .input-box button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgb(49, 22, 22);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-bottom: 2px solid rgba(170, 132, 142, 0.404);
+ }
+
+ .input-box button:hover {
+    background: rgb(80, 36, 36);
+ }

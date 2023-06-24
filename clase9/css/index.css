@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(22, 20, 20, 0.562);
+}
+
+.contentItemCard{
+    border: 5px solid rgb(0, 0, 0);
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.itemCA{
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCa{
+    display: flex;
+    justify-content: center;
+}
+
+.flechas{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+
+.izquierda{
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 60px solid white;
+}
+
+.derecha{
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 60px solid white;
+}
+
+img{
+    width: 50%;
+}

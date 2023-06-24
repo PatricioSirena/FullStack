@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+    section{
+    display: block;
+}
+    article{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 387px){
+    section{
+        display: block;
+    }
+        article{
+            width: 100vw;
+        }
+}

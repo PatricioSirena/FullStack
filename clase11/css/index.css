@@ -1,0 +1,6 @@
+div .col-6{
+    background-color: seagreen;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}

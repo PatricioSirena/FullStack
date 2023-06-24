@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>CodeX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-4 navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><span class="icon-loguito"><i
+                class='bx bxs-coffee-bean'>Coffee</i></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./paginas/login.html">Login</a>
+              <a class="nav-link" href="./paginas/galería.html">Galeria</a>
+              <a class="nav-link" href="./paginas/aboutme.html">Nosotros</a>
+              <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+              <a type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Suscribite
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="./img/coffee-solcito.jpeg" class="d-block mt-5 w-100 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/coffee-luces.jpg" class="d-block mt-5 w-100 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/coffee-dulces.jpg" class="d-block mt-5 w-100 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/coffee-tazaceleste.jpeg" class="d-block mt-5 w-100 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/coffee-tazanegra.jpeg" class="d-block mt-5 w-100 mx-auto" alt="...">
+        </div>
+      </div>
+    </div>
+    <section class="container p-5">
+      <div class="row">
+        <aside class="col-sm-12 col-md-2 col-lg-2 order-sm-1 order-md-2 order-lg-2 order-xl-2 order-xxl-2 mb-5">
+          <div class="col-sm-12 mt-3">
+            <!-- ----------  CUADRO DE BUSQUEDA  ---------- -->
+            <form action="procesarDatos.html " method="post" class="search-bar">
+              <input type="text" placeholder="Buscar...">
+              <button type="submit"><i class='bx bx-search-alt-2'></i></button>
+            </form>
+            <!-- ----------  FIN DE CUADRO DE BUSQUEDA  ---------- -->
+            <!-- ----------  INDICE  ---------- -->
+            <div class="col-sm-12 mt-5">
+              <h5 class="mb-3 text-center"><u>Indice</u></h5>
+              <ul class="indice m">
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contenido">Mas contenido</a></li>
+                <li><a href="#redes">Redes</a></li>
+              </ul>
+            </div>
+            <!-- ----------  FIN DEL INDICE  ---------- -->
+            <!-- ----------  PUBLICIDAD  ---------- -->
+            <div class="row publicidad">
+              <div class="col-sm-12 mt-5 mb-5 text-center">
+                <video class="publi2 col-sm-12" src="./video/publicidad2.mp4" width="200px" muted autoplay
+                  loop>Publicidad</video>
+              </div>
+              <div class="col-sm-12 mt-5 mb-5 text-center">
+                <a href="#">
+                  <img class="publi col-sm-12" src="./img/publicidad1.jpeg" width="200px" alt="">
+                </a>
+              </div>
+              <div class="col-sm-12 mt-5 mb-5 text-center">
+                <video class="publi2 col-sm-12" src="./video/publicidad2.mp4" width="200px" muted autoplay
+                  loop>Publicidad</video>
+              </div>
+              <!-- ----------  FIN DE PUBLICIDAD  ---------- -->
+            </div>
+          </div>
+        </aside>
+        <article class="col-sm-12 col-md-10 col-lg-10 order-sm-2 order-md-1 order-lg-1 order-xl-1 order-xxl-1">
+          <div id="intro" class="intro mb-5 mt-2">
+            <strong>
+              <h1>Café de la mañana: una cálida rutina</h1>
+            </strong><br>
+            <p class="texto-principal">El café para despertar, el ritual del café, el conectarnos con nosotros mismos.
+              El café nos despierta, ¿pero por qué se ha vuelto tan importante para nosotros?
+              De las bebidas energéticas naturales el café es el rey. La cafeína incrementa nuestros niveles de energía
+              a través de la sangre y el cerebro.<br>
+              El café no es solo costumbre ni un gusto adquirido, es alimento para nuestro cuerpo. Solo una taza
+              contiene vitamina B2, vitamina B5, manganeso y potasio… y dejemos la lista ahí para no ser tan
+              específicos. Por eso un café con arepa o un café con pan sabe tan bueno, no solo es despertar, es
+              alimentar y disfrutar la mañana de una manera única.<br></p>
+            <strong>
+              <h1>Formas de empezar el día:</h1>
+            </strong><br>
+            <p class="texto-principal"> una rutina sana es de gran ayuda para todos. Levantarse y ver el celular,
+              mensajes, correos y demás, genera mucha presión.<br>
+              Una buena forma para mejorar tus mañana es bajo rutinas saludables. Disfruta de un buen desayuno con café,
+              si puedes, realiza ejercicio antes de comenzar tu jornada o medita, de esta manera tu cerebro estará
+              preparado para los retos que traerá tu día.<br>
+              Incluir el café de la mañana en todo este proceso será algo muy valioso para ti. Solo el proceso de
+              prepararlo te sacará de la realidad por dos minutos. Calentar el agua, tomar el café, agregarlo a la taza,
+              percibir los olores, saborear ese primer sorbo, son todas formas para sentirse mejor.<br>
+              <br>En conclusión, un buen café te ayuda en:<br><br>
+              🤎 Despertarte y dejarte listo para afrontar el día. Recuerda los beneficios de la cafeína.<br>
+              🤎 El café te aporta tanto física como mentalmente.<br>
+              🤎 Lo más importante: el café de la mañana puede ser una terapia para ti.
+            </p><br>
+          </div>
+          <br>
+          <!-- ----------  CARDS ---------- -->
+          <div class="container-fluid">
+            <div class="row">
+              <div id="blog" class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./img/capp.webp" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-tittle"><strong>Mejores cafeterías de Tucumán para visitar</strong></h5>
+                    <p class="card-text">¿Sabes dónde encontrarás lo que buscas? Sigue leyendo que te muestro las
+                      mejores cafeterías.</p>
+                    <div class="text-end">
+                      <a href="./paginas/pagina1.html" target="_blank" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./img/cafet1.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-tittle"><strong>¿Cuál es la mejor cafetera para hacer tu café?</strong></h5>
+                    <p class="card-text">Anímate a preparar tu café preferido en casa con tu propia cafetera.</p>
+                    <div class="text-end">
+                      <a href="./paginas/pagina2.html" target="_blank" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./img/tiposgr.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-tittle"><strong>Tipos de granos de café</strong></h5>
+                    <p class="card-text">¡Conoce todas las variedades de los tipos de café en grano! En *nombre* vamos a
+                      presentarte las diferentes tipologías que existen.</p>
+                    <div class="text-end">
+                      <a href="./paginas/pagina3.html" target="_blank" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-sm-1">
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./img/negro.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-tittle"><strong>Café Negro y sus beneficios</strong></h5>
+                    <p class="card-text">Veamos a continuación de qué se trata, sus beneficios, cómo preparar una taza
+                      de café negro 100% puro y diferenciarlo de otras extracciones.</p>
+                    <div class="text-end">
+                      <a href="./paginas/pagina4.html" target="_blank" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./img/cafetip.webp" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-tittle"><strong>¿Cuáles son los tipos de café?</strong></h5>
+                    <p class="card-text">Dependiendo del origen de su planta, de su tostado y del modo de preparación,
+                      el café puede ser de distintos tipos.</p>
+                    <div class="text-end">
+                      <a href="./paginas/pagina5.html" target="_blank" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./img/recet.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-tittle"><strong>Recetas con Café</strong></h5>
+                    <p class="card-text">Encontrá las mejores recetas para hacer en casa, fáciles y sencillas.</p>
+                    <div class="text-end">
+                      <a href="./paginas/pagina6.html" target="_blank" class="btn btn-outline-primary">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ----------  FIN DE LAS CARDS  ---------- -->
+          <!-- ----------  VIDEOS  ---------- -->
+          <div class="container-fluid">
+            <div id="videos" class="row videos">
+              <div class="col-10 col-sm-12">
+                <div class="text-center">
+                  <h3 class="mb-5"><u>Como elegir un buen cafe</u></h3>
+                  <iframe width="450" height="315" src="https://www.youtube.com/embed/QxCls8YJybk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+                <p class="descripcion mt-5">Forma parte del desayuno diario de miles y miles de españoles. Incluso, para
+                  muchos de ellos, tan solo se trata del primer café del día, al que se irán sumando otros tantos. Sin
+                  embargo, a pesar de ser uno de los productos más consumidos, no siempre adquirimos el de mejor
+                  calidad. Es cierto que, muchas veces, no tenemos más opción que ‘conformarnos’ con ese terrible café
+                  de máquina de la oficina… Pero, al menos, cuando lo preparemos en casa, ¡que sea un café de verdad!
+                  El problema es que cuando vamos al mercado, la oferta de cafés es muy variada, y los menos avezados en
+                  materia de café pueden despistarse ante tanta oferta. ¿Qué tener en cuenta? Estos son algunos
+                  consejos.</p>
+              </div>
+              <hr class="mt-5">
+              <div class="col-10 col-sm-12">
+                <div class="text-center">
+                  <h3 class="mt-5 mb-5"><u>Recetas con cafe</u></h3>
+                  <iframe width="450" height="315" src="https://www.youtube.com/embed/2sWOEkQKjj4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+                <p class="descripcion mt-5">Mucha gente es incapaz de empezar el día sin un buen café por la mañana,
+                  pero los auténticos amantes de esta bebida adoran tanto su sabor que les gusta en todo tipo de
+                  preparaciones. Por ellos hemos preparado esta recolección de recetas con café para los más cafeteros.
+                </p>
+              </div>
+              <hr class="mt-5">
+              <div class="col-10 col-sm-12">
+                <div class="text-center">
+                  <h3 class="mt-5 mb-5"><u>Cocteles con cafe</u></h3>
+                  <iframe width="450" height="250" src="https://www.youtube.com/embed/6UIgnlFktwY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+                <p class="descripcion mt-5">Seguro te preguntarás en qué consiste la mixología. Quienes practican este
+                  arte, desempeñan la delicada técnica de mezclar bebidas, y usan este término sobre todo en el mundo de
+                  la coctelería y la preparación de bebidas alcohólicas. ¿En qué nos afecta esto a los Apasionados por
+                  el Café? Pues queremos contarte que últimamente el café se ha vuelto protagonista en muchas recetas de
+                  mixólogos y baristas, que buscan armonizar un sinfín de combinaciones posibles para crear una bebida
+                  innovadora, deliciosa y distinta a todas las demás.</p>
+              </div>
+            </div>
+            <!-- ----------  FIN DE VIDEOS  ---------- -->
+            <div id="contenido" class="col-10 col-sm-12">
+              <h2 class="animate__lightSpeedInLeft text-center mb-3" id="titulo_principal">¿POR QUÉ EL CAFÉ ES UNA
+                EXPERIENCIA TAN SENSORIAL?</h2>
+              <div>
+                <img src="./img/9b500a0b342520826b610fcdd7adfc4c.jpg" class="animate__fadeIn" width="100px" alt="Foto"
+                  id="primera_foto">
+              </div>
+              <div class="texto_arriba_footer">
+                <p class="texto_circulo">Basta con escuchar a alguien decir la palabra café para percibir su aroma,
+                  saborearlo en la boca e incluso sentir su calidez en el cuerpo. ¿Pero porqué sucede esto?</p>
+                <p class="texto_circulo">Es que el café no es simplemente una bebida, es todo un ritual.</p>
+                <p class="texto_circulo">Su experiencia sensorial se debe a su composición, pero también a los cientos
+                  de años de técnicas de producción, recolección, tostado y preparación.</p>
+                <p class="texto_circulo">Sorprendente desde su proceso de siembra hasta el momento que lo sientes en el
+                  paladar. Sus efectos estimulantes son capaces de despertar sentidos y de percibir la vida con un sabor
+                  distinto.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="redes" class="footer p-1 col-sm-4 text-center">
+          <div class="social-icons">
+            <h5 class="titulo-f mt-5 p-3">Seguinos en:</h5>
+            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+            <a href="./paginas/404.html" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+          </div>
+        </div>
+        <div class="footer p-1 col-sm-4 text-center">
+          <span class="icon">
+            <i class='bx bxs-coffee-bean'>Coffee</i>
+          </span>
+        </div>
+        <div class="footer p-1 col-sm-4 text-center">
+          <h5 class="mt-5 p-3">Contenidos</h5>
+          <ul class="menu-foot">
+            <li><a href="./paginas/404.html" class="texto-pie">Tipos de café</a></li>
+            <li><a href="./paginas/404.html" class="texto-pie">Mejores lugares para merendar</a></li>
+            <li><a href="./paginas/404.html" class="texto-pie">Mejores Marcas</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ----------  Modal  ---------- -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="d-flex justify-content-center">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Suscripción a la pagina</h1>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos tus datos con alguien mas.</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Quiero recibir notificaciones al mail.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirme</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </form>
+        </div>
+        <!-- ----------  Fin del modal  ---------- -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>

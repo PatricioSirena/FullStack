@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#backg{
+    /* background-color: rgba(0, 0, 163, 0.856); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#foto{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#list{
+    display: flex;
+    justify-content: center;
+}
+
+#list ul{
+    list-style-type: none;
+}
+
+#list ul li{
+    margin: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#more{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}

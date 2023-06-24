@@ -1,0 +1,120 @@
+*{
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#principal{
+    width: 800px;
+    height: 800px;
+    margin-top: 300px;
+    margin-left: 300px;
+    padding: 50px;
+}
+
+#pan{
+    background-color: rgba(110, 96, 14, 0.829);
+    width: 80px;
+    height: 20px;
+    border-radius: 20px 20px 5px 5px;
+}
+
+.hamburguesa{
+    background-color: rgb(29, 24, 7);
+    width: 70px;
+    height: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#pan2{
+    background-color: rgba(110, 96, 14, 0.829);
+    width: 80px;
+    height: 20px;
+    border-radius: 5px 5px 20px 20px;
+}
+
+#tom{
+    width: 70px;
+    height: 5px;
+    padding-left: 5px;
+}
+
+.tomates{
+    width: 30%;
+    height: 5px;
+    background-color: red;
+    margin-left: 2%;
+    float: left;
+}
+
+#plato{
+    width: 100px;
+    height: 7px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 908px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#vaso{
+    position: absolute;
+    top: 390px;
+    left: 500px;
+    width: 40px;
+    height: 0px;
+    border-top: 90px solid rgb(8, 5, 43);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+#tapa{
+    position: absolute;
+    top: 387px;
+    left: 500px;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px 40px 0px 0px;
+}
+
+#sorvete{
+    position: absolute;
+    top: 355px;
+    left: 510px;
+    width: 3px;
+    height: 33px;
+    background-color: black;
+}
+
+#helado{
+    position: absolute;
+    top: 340px;
+    left: 620px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+#helado2{
+    position: absolute;
+    top: 370px;
+    left: 620px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(58, 23, 3);
+    border-radius: 100px;
+}
+
+#cono{
+    position: absolute;
+    top: 400px;
+    left: 620px;
+    width: 0px;
+    height: 0px;
+    border-top: 80px solid rgb(119, 111, 3);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}

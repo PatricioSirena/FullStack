@@ -1,0 +1,35 @@
+main {
+    width: auto;
+}
+
+#fotoperfil {
+    width: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+#fotoperfil:hover {
+    width: 200px;
+}
+
+.profile {
+    margin: 20px;
+}
+
+
+.profile:hover {
+    border-bottom: 2px solid rgb(43, 20, 24);
+}
+
+
+.profile-name {
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}

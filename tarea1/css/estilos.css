@@ -15,12 +15,14 @@ a{
 }
 
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     min-height: 70px;
     background-color: rgb(14, 94, 48);
     align-items: center;
     padding: 10px;
+    position: fixed;
 }
 
 .logo{

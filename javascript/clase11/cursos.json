@@ -1,0 +1,384 @@
+[
+    {
+      "nombre":"Módulo I Base de datos I",
+      "code":"School I",
+      "descripcion":"Lunes, miércoles y viernes",
+      "modulos":[
+        {
+          "nombre":"Introducción a base de datos",
+          "clases":
+          [
+            {
+            "nombre":"Base de datos",
+              "temas":[{
+  
+                  "titulo":"¿Qué es?",
+                  "descripcion":[
+                
+                    "Un conjunto de datos",
+                    "Pertenecientes a un mismo contexto.",
+                    "Organizados para un propósito específico."
+                  ],
+                  "videos":[""]
+              },{
+  
+                "titulo":"Nos permite",
+                "descripcion":[
+                
+                  "Almacenar (agregar, modificar y eliminar) datos.",
+                  "Acceder a los datos.",
+                  "Manipularlos y combinarlos..",
+                  "Analizar datos."
+              
+                ],
+                "videos":[""]
+            },{
+  
+              "titulo":"Tipos de base de datos",
+              "descripcion":[
+              
+                "Relacionales",
+                "No relacionales."     
+              ],
+              "videos":[""]
+          },
+            {
+  
+              "titulo":"Hay base de datos que no estén en una computadora?",
+              "descripcion":[
+              
+                "Legajo",
+                "Organizador de archivos"
+            
+              ],
+              "videos":[""]
+          }
+          ]
+          },
+          {
+            "nombre":"Bases de datos versus Archivos planos",
+              "temas":[{
+  
+                  "titulo":"¿Base de datos o archivos planos?",
+                  "descripcion":[
+                  
+                    "Un archivo está compuesto por registros",
+                    "Cada registro está compuesto por un conjunto de datos."
+                
+                  ],
+                  "videos":[""]
+              },
+              {
+  
+                "titulo":"Redundancia",
+                "descripcion":[
+                
+                  "Departamento RRHH",
+                  "Usa Legajo,nombre,dni,dirección",
+                  "Departamento Ventas",
+                  "legajo,nombre,numero_venta,comisión",
+                  "Cada depto carga sus empleados--> Datos cargados dos veces == redundancia de datos"
+              
+                ],
+                "videos":[""]
+            },
+            {
+  
+              "titulo":"Consistencia e integridad de datos",
+              "descripcion":[
+              
+                "EEl empleado tiene mal su apellido ",
+                "RRHH realiza la actualización ",
+                "Ventas no",
+                "Esa información queda incosistente",
+                "Entonces las ventas registradas no pertenecen a ningún empleado"
+            
+              ],
+              "videos":[""]
+          }]
+          }
+          ,
+          {
+            "nombre":"Gestor de base de datos ",
+              "temas":[{
+  
+                  "titulo":"¿Qué son?",
+                  "descripcion":[
+                  
+                    "Capa de software.",
+                    "SAlmacenar los datos y protegerlos.",
+                    "ejemplo: Director tecnico de un equipo"
+                
+                  ],
+                  "videos":[""]
+              },
+              
+              
+            {
+  
+              "titulo":"Capacidades",
+              "descripcion":[
+              
+                "Consistencia de datos",
+                "Respaldo",
+                "Acceso concurrente",
+                "Integridad",
+                "tiempo de repuesta",
+                "seguridad"
+            
+              ],
+              "videos":[""]
+          },
+          {
+  
+            "titulo":"Stnadart en común",
+            "descripcion":[
+            
+              "SQL",
+              "Lenguaje que garantiza el acceso a cualquier motor de db",
+              "Por medio de este podemos CRUD"
+          
+            ],
+            "videos":[""]
+        }]
+          }
+          ,
+          {
+            "nombre":"Mysql",
+              "temas":[
+                {
+  
+                  "titulo":"Mysql",
+                  "descripcion":[
+                  
+                    "Gratuita",
+                    "Código abierto",
+                    "Confiable",
+                    "compatible con los sistemas operativos"
+                
+                  ],
+                  "videos":[""]
+              }
+              ]
+          }
+  
+        ]
+      }
+    ]
+  },
+  {
+    "nombre":"Módulo II Javascript",
+    "code":"School II",
+    "descripcion":"Martes y Jueves",
+    "modulos":[
+      {
+        "nombre":"Introducción",
+        "clases":
+        [
+          {
+          "nombre":"Javascript",
+            "temas":[{
+  
+                "titulo":"¿Qué es?",
+                "descripcion":[
+              
+                  "Lenguaje de programación que se usa principalmente para crear páginas web.",
+                  "Es un lenguaje interpretado. No es necesario compilarlo",
+                  "Debilmente tipado."
+                ],
+                "videos":[""]
+            },{
+  
+              "titulo":"Caracteristicas",
+              "descripcion":[
+              
+                "Basado en prototipos.",
+                "Imperativo e interpretado.",
+                "No tipado.",
+                "Dialecto de ECMAScript (ES)."
+            
+              ],
+              "videos":[""]
+          },{
+  
+            "titulo":"Variables",
+            "descripcion":[
+            
+              "Memoria ram",
+              "Balde",
+              "Caja de cartón"      
+            ],
+            "videos":[""]
+        },
+          {
+  
+            "titulo":"Tipos de variables",
+            "descripcion":[
+            
+              "\"Luis Navas\"",
+              1253674,
+              "true",
+              "undefined",
+              "NaN"
+          
+            ],
+            "videos":[""]
+        }
+        ]
+        },
+        {
+          "nombre":"Estructuras de control",
+            "temas":[{
+  
+                "titulo":"¿Qué es?",
+                "descripcion":[
+                
+                  "Es un segmento de código que tienen los lenguajes de programación.",
+                  "Que tienen una estructura.",
+                  "Se utiliza para controlar el flujo de las operaciones.",
+                  "En el momento de ejecutarse el programa."
+              
+                ],
+                "videos":[""]
+            },
+            {
+  
+              "titulo":"Estructura",
+              "descripcion":[
+                "if(condición){...instrucciones ...modificación de la variable}","switch (key) {case value:  break; default: break; }",
+                "while (condition) {..instrucciones}",
+                "else",
+                "else if"
+            
+              ],
+              "videos":[""]
+          },
+          {
+  
+            "titulo":"Ejemplos",
+            "descripcion":[
+            
+              "El usuario y la clave son correctos",
+              "El usuaario está logueado",
+              "El usuario tiene privilegios de admin",
+              "El usuario puede añadir fotos"
+          
+            ],
+            "videos":[""]
+        },
+        {
+  
+          "titulo":"if",
+          "descripcion":[
+          
+            "Nos permite ejecutar diferentes bloques de código.",
+            "Dependen de un booleano.",
+            "Nos permite validar varias condiciones."
+        
+          ],
+          "videos":[""]
+      },
+      {
+  
+        "titulo":"Estructura",
+        "descripcion":[
+        
+          "if",
+          "()",
+          "{}",
+          "else",
+          "else if"
+      
+        ],
+        "videos":[""]
+    },
+    {
+  
+      "titulo":"if ternario",
+      "descripcion":[
+      
+        "Se escribe en una sóla línea de código.",
+        "Solo tiene dos escenario.",
+        "Nos permite validar true o false."
+    
+      ],
+      "videos":[""]
+  },
+  {
+  
+    "titulo":"Estructura",
+    "descripcion":[
+    
+      "condicion ?",
+      "expresion para el true:",
+      "expresion para el false"
+    
+  
+    ],
+    "videos":[""]
+  },
+    {
+  
+      "titulo":"Ejemplos",
+      "descripcion":[
+      
+        "El usuario está logueado",
+        "Existe la cokkie del usuario",
+        "Se cambio el color de fondo",
+        "Está lloviendo"
+    
+      ],
+      "videos":[""]
+  }]
+        }
+        ,
+        {
+          "nombre":"Bucles",
+            "temas":[{
+  
+                "titulo":"¿Qué son?",
+                "descripcion":[
+                
+                  "Sirven para automatizar nuestra aplicación.",
+                  "Son utilizados para realizar tareas repetitivas.",
+                  "Con base en una condición"
+              
+                ],
+                "videos":[""]
+            },
+            
+            
+          {
+  
+            "titulo":"Ciclo for",
+            "descripcion":[
+            
+              "Es una sentencia de javascript",
+              "Nos permite recorrer un array",
+              "Nos permite crear repetidas veces un código",
+              "Cumple con una estructura sencilla"
+          
+            ],
+            "videos":[""]
+        },
+        {
+  
+          "titulo":"Estructura",
+          "descripcion":[
+          
+            "Variable inicializada",
+            "Condición a evaluar",
+            "Modificador de la variable"
+        
+          ],
+          "videos":[""]
+      }]
+        }
+ 
+  
+      ]
+    }
+  ]
+  }
+  ]
+  
